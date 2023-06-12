@@ -8,11 +8,11 @@
 </head>
 <body>
     @include('partials.header')
-
-            @yield('train')
+        <main class="container ">
             
-
-
+                @yield('train')
+            </div>
+        </main>
     @include('partials.footer')
 </body>
 </html>
