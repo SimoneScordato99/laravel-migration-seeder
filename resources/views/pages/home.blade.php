@@ -1,5 +1,11 @@
-@extend('layout.app')
+@extends('layout.app')
 
-@section('content')
-    <h1>asofbhgaoeikjudsrbhfgaijklserhbg</h1>
+@section('train')
+<main>
+<h2>awuikrghfvauikshfviu</h2>
+    @foreach( $trains as $elem )
+        <h2>{{$elem['Azienda']}}</h2>
+    @endforeach
+
+</main>
 @endsection

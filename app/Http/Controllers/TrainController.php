@@ -15,7 +15,7 @@ class TrainController extends Controller
     public function index()
     {
         $trains = Train::All();
-        return view('layout.app', compact('trains'));
+        return view('pages.home', compact('trains'));
     }
 
     /**

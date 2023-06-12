@@ -13,7 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('trains_prova2', function (Blueprint $table) {
+        Schema::create('train_prova2', function (Blueprint $table) {
             $table->string('Azienda');
             $table->string('Stazione_di_partenza');
             $table->string('Stazione_di_arrivo');
@@ -23,6 +23,7 @@ return new class extends Migration
             $table->string('Numero_Carrozze');
             $table->boolean('In_orario');
             $table->boolean('Cancellato');
+            $table->timestamps();
         });}
     
     /**

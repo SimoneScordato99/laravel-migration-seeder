@@ -9,7 +9,9 @@
 <body>
     @include('partials.header')
 
-        @yield('content')
+            @yield('train')
+            
+
 
     @include('partials.footer')
 </body>
